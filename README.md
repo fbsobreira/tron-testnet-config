@@ -1,6 +1,6 @@
 # Tron Testnet 
 
-This is a public testnet so the SR candidate could test softwares updates, network topologies, and failovers
+This is a public testnet for testing softwares updates, network topologies, and failovers
 
 JAVA-TRON BUILD
 
