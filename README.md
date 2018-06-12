@@ -63,4 +63,4 @@ Go back to instructions above and start node as witness\
 Wait for next 6 hour cycle to confirm you are producing blocks\
 http://35.193.47.70:3000/#/representatives
 
-IF YOU FIND ANY INACCURACIES OR REQUIRED CLARIFICATIONS, PLEASE TELEGRAM A TEST NET ADMIN
+IF YOU FIND ANY INACCURACIES OR REQUIRED CLARIFICATIONS, PLEASE LET US KNOW IN TELEGRAM
