@@ -1,5 +1,5 @@
 # Tron Testnet 
-This is a public testnet for testing softwares updates, network topologies, and failovers\
+This is a public testnet for testing softwares updates, network topologies, and failovers
 
 JAVA-TRON BUILD
 
@@ -40,7 +40,7 @@ RegisterWallet <enter pw of choice>\
 Login <pw>\
 GetAddress    (save address)\
 BackupWallet  (save pk)\
-Send telegram message with address to testnet admin (@fbsobreira, @deanzaremba, @cryptoguyinza) to recieve Test TRX\
+Send telegram message with address to testnet admin (@fbsobreira, @deanzaremba, @cryptoguyinza) to recieve Test TRX
 
 Login\
 GetBalance (confirm account balance > 0; balance shows TRX amount * 10^6)\
