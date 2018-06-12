@@ -19,7 +19,7 @@ AFTER pk is generated below - using Wallet Operations - Start as witness node\
 cd java-tron/tron-testnet-config\
 ./work.sh stop\
 ./update_witness.sh 	<Enter your node private key>\
-./work.sh start\
+./work.sh start
   
   
   
@@ -34,7 +34,7 @@ cd wallet-cli\
 cp src/main/resources/config.conf .\
 nano config.conf  (mem mainnet, un-mem testnet, change fullnode IP to 127.0.0.1)\
 ./gradlew build\
-./gradlew run -Pcmd\
+./gradlew run -Pcmd
 
 RegisterWallet <enter pw of choice>\
 Login <pw>\
@@ -58,6 +58,6 @@ Enter <y>;   Enter <password>\
 Goto http://35.193.47.70:3000/#/votes-live and confirm you have votes\
 
 
-Go back and start node as witness\
+Go back to instructions above and start node as witness\
 Wait for next 6 hour cycle to confirm you are producing blocks\
 http://35.193.47.70:3000/#/representatives
