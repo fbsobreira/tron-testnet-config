@@ -2,6 +2,15 @@
 This is a public testnet for testing softwares updates, network topologies, and failovers\
 Join Telegram group at https://t.me/tronpublictestnet
 
+
+### Dependencies
+sudo apt-get update/
+sudo apt-get upgrade
+
+sudo add-apt-repository ppa:webupd8team/java/
+sudo apt-get update/
+sudo apt-get -y -V install oracle-java8-installer
+
 ### JAVA-TRON BUILD
 
 ```console
@@ -11,12 +20,16 @@ $ ./gradlew build
 $ git clone https://github.com/fbsobreira/tron-testnet-config.git  
 $ cp build/libs/FullNode.jar tron-testnet-config/
 $ cd tron-testnet-config
-$ ./work.sh start  (start as Full node to begin syncing)\
+$ ./update_witness.sh 
+<Enter your node private key>    
+(If you do not have testnet pk already, so to tronscan.org and generater a mainnet key that can be used temp placeholder)
+$ ./work.sh start  
+(start as Full node to begin syncing)
 $ tail -F ~/java-tron/tron-testnet-config/logs/tron.log | grep -A5 -B2 "MyHeadBlockNum"
 ```  
 
 ### Start witness node
-Use Wallet Operations below to generate a private key and follow the steps
+Use Wallet Operations below to register a TESTNET private key first
 ```console
 $ cd java-tron/tron-testnet-config\
 $ ./work.sh stop
