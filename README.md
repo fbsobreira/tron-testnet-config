@@ -3,6 +3,7 @@
 This is a public testnet so the SR candidate could test softwares updates, network topologies, and failovers
 
 JAVA-TRON BUILD
+
 git clone https://github.com/tronprotocol/java-tron.git
 sudo chmod -R 777 java-tron
 
@@ -23,6 +24,7 @@ cd java-tron/tron-testnet-config
 
 
 WALLET OPERATIONS
+
 (java-tron needs to be running for wallet actions)
 Goto http://35.193.47.70:3000/#/nodes and confirm your node is listed and synced to highest block height
 
