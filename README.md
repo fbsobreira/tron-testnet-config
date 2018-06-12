@@ -1,6 +1,6 @@
 # Tron Testnet 
-This is a public testnet for testing softwares updates, network topologies, and failovers
-Join Telegram group 
+This is a public testnet for testing softwares updates, network topologies, and failovers/
+Join Telegram group at https://t.me/tronpublictestnet
 
 JAVA-TRON BUILD
 
@@ -41,7 +41,7 @@ RegisterWallet <enter pw of choice>\
 Login <pw>\
 GetAddress    (save address)\
 BackupWallet  (save pk)\
-Send telegram message with address to testnet admin (@fbsobreira, @deanzaremba, @cryptoguyinza) to recieve Test TRX
+Request test TRX in Telegram group. Post wallet address and IP of synced node
 
 Login\
 GetBalance (confirm account balance > 0; balance shows TRX amount * 10^6)\
