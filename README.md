@@ -47,6 +47,7 @@ $ ./gradlew run -Pcmd
 <enter password of choice>
 # Login <pw>
 # GetAddress    (save address)
+# BackupWallet  (save pk)
 ```  
 > Request test TRX in Telegram group. Post wallet address and IP of synced node
 
