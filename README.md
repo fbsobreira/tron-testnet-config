@@ -4,11 +4,11 @@ Join Telegram group at https://t.me/tronpublictestnet
 
 
 ### Dependencies
-sudo apt-get update/
+sudo apt-get update\
 sudo apt-get upgrade
 
-sudo add-apt-repository ppa:webupd8team/java/
-sudo apt-get update/
+sudo add-apt-repository ppa:webupd8team/java\
+sudo apt-get update\
 sudo apt-get -y -V install oracle-java8-installer
 
 ### Java-Tron Build
@@ -46,7 +46,7 @@ $ ./work.sh start
 ```console
 $ git clone https://github.com/tronprotocol/wallet-cli.git
 $ cd wallet-cli
-$ cp src/main/resources/config.conf ./
+$ cp src/main/resources/config.conf .
 $ nano config.conf
 (mem mainnet, un-mem testnet, change fullnode IP to 127.0.0.1)\
 $ ./gradlew build
