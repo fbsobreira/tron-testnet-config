@@ -22,6 +22,7 @@ cd tron-testnet-config
 tail -F ~/java-tron/tron-testnet-config/logs/tron.log | grep block
 
 
+ 
 
 AFTER pk is generated below - using Wallet Operations - Start as witness node
 
@@ -32,6 +33,7 @@ cd java-tron/tron-testnet-config
 ./work.sh start
 
 
+ 
 
 
 WALLET OPERATIONS
