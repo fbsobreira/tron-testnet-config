@@ -1,29 +1,19 @@
 # Tron Testnet 
-This is a public testnet for testing softwares updates, network topologies, and failovers
+This is a public testnet for testing softwares updates, network topologies, and failovers\
 
-JAVA-TRON BUILD
-
-git clone https://github.com/tronprotocol/java-tron.git
-
-sudo chmod -R 777 java-tron
-
+JAVA-TRON BUILD\
+git clone https://github.com/tronprotocol/java-tron.git\
+sudo chmod -R 777 java-tron\
 cd java-tron
 
-./gradlew build
-
-git clone https://github.com/fbsobreira/tron-testnet-config.git
-
-cp build/libs/FullNode.jar tron-testnet-config/
-
-cd tron-testnet-config
-
-./work.sh start  (start as Full node to begin syncing)
-
+./gradlew build\
+git clone https://github.com/fbsobreira/tron-testnet-config.git\
+cp build/libs/FullNode.jar tron-testnet-config/\
+cd tron-testnet-config\
+./work.sh start  (start as Full node to begin syncing)\
 tail -F ~/java-tron/tron-testnet-config/logs/tron.log | grep block
-
-
- 
-
+\
+\
 AFTER pk is generated below - using Wallet Operations - Start as witness node
 
 cd java-tron/tron-testnet-config
