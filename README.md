@@ -11,7 +11,7 @@ sudo add-apt-repository ppa:webupd8team/java/
 sudo apt-get update/
 sudo apt-get -y -V install oracle-java8-installer
 
-### JAVA-TRON BUILD
+### Java-Tron Build
 
 ```console
 $ git clone https://github.com/tronprotocol/java-tron.git  
@@ -39,7 +39,7 @@ $ ./work.sh start
 ```  
   
   
-### WALLET OPERATIONS
+### Wallet Operations
 > java-tron needs to be running for wallet actions
 > Goto http://35.193.47.70:3000/#/nodes and confirm your node is listed and synced to highest block height
 
