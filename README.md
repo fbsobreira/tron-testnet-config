@@ -22,7 +22,7 @@ $ cp build/libs/FullNode.jar tron-testnet-config/
 $ cd tron-testnet-config
 $ ./update_witness.sh 
 <Enter your node private key>    
-(If you do not have testnet pk already, so to tronscan.org and generater a mainnet key that can be used temp placeholder)
+(If needed, you can get temp placeholder key at to tronscan.org)
 $ ./work.sh start  
 (start as Full node to begin syncing)
 $ tail -F ~/java-tron/tron-testnet-config/logs/tron.log | grep -A5 -B2 "MyHeadBlockNum"
