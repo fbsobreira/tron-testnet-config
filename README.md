@@ -1,5 +1,5 @@
 # Tron Testnet 
-This is a public testnet for testing softwares updates, network topologies, and failovers/
+This is a public testnet for testing softwares updates, network topologies, and failovers\
 Join Telegram group at https://t.me/tronpublictestnet
 
 JAVA-TRON BUILD
