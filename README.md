@@ -17,10 +17,10 @@ cp build/libs/FullNode.jar tron-testnet-config/
 
 cd tron-testnet-config
 
-
 ./work.sh start  (start as Full node to begin syncing)
 
 tail -F ~/java-tron/tron-testnet-config/logs/tron.log | grep block
+
 
 
 AFTER pk is generated below - using Wallet Operations - Start as witness node
@@ -30,6 +30,8 @@ cd java-tron/tron-testnet-config
 ./update_witness.sh 	<Enter your node private key>
 
 ./work.sh start
+
+
 
 
 WALLET OPERATIONS
