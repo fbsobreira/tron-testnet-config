@@ -6,11 +6,11 @@ JAVA-TRON BUILD
 
 git clone https://github.com/tronprotocol/java-tron.git
 sudo chmod -R 777 java-tron
-
 cd java-tron
-./gradlew build
 
+./gradlew build
 git clone https://github.com/fbsobreira/tron-testnet-config.git
+
 cp build/libs/FullNode.jar tron-testnet-config/
 cd tron-testnet-config
 
