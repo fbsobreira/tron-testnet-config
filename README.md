@@ -1,5 +1,6 @@
 # Tron Testnet 
 This is a public testnet for testing softwares updates, network topologies, and failovers
+Join Telegram group 
 
 JAVA-TRON BUILD
 
@@ -61,3 +62,5 @@ Goto http://35.193.47.70:3000/#/votes-live and confirm you have votes\
 Go back to instructions above and start node as witness\
 Wait for next 6 hour cycle to confirm you are producing blocks\
 http://35.193.47.70:3000/#/representatives
+
+IF YOU FIND ANY INACCURACIES OR REQUIRED CLARIFICATIONS, PLEASE TELEGRAM A TEST NET ADMIN
