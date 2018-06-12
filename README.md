@@ -31,7 +31,7 @@ $ tail -F ~/java-tron/tron-testnet-config/logs/tron.log | grep -A5 -B2 "MyHeadBl
 ### Start witness node
 Use Wallet Operations below to register a TESTNET private key first
 ```console
-$ cd java-tron/tron-testnet-config\
+$ cd java-tron/tron-testnet-config
 $ ./work.sh stop
 $ ./update_witness.sh 
 <Enter your node private key>
