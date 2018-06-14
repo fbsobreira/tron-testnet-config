@@ -48,7 +48,7 @@ $ git clone https://github.com/tronprotocol/wallet-cli.git
 $ cd wallet-cli
 $ cp src/main/resources/config.conf .
 $ nano config.conf
-(mem mainnet, un-mem testnet, change fullnode IP to 127.0.0.1)\
+(mem mainnet, un-mem testnet, change fullnode IP to 127.0.0.1:50051, and solidity node IP 35.193.47.70 50050)
 $ ./gradlew build
 $ ./gradlew run -Pcmd
 ```  
