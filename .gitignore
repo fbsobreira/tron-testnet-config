@@ -1,0 +1,6 @@
+logs
+output-directory
+fullnode
+solidity
+*.log
+*.pid
