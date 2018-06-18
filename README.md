@@ -12,21 +12,12 @@ sudo apt-get update\
 sudo apt-get -y -V install oracle-java8-installer
 
 ### Java-Tron Build
+```console, will aks fir Private Key in compile step. No need to update config.conf file
 
-```console
-$ git clone https://github.com/tronprotocol/java-tron.git  
-$ cd java-tron
-$ ./gradlew build
-$ git clone https://github.com/fbsobreira/tron-testnet-config.git  
-$ cp build/libs/FullNode.jar tron-testnet-config/
-$ cd tron-testnet-config
-$ ./update_witness.sh 
-<Enter your node private key>    
-(If needed, you can get temp placeholder key at to tronscan.org)
-$ ./work.sh start  
-(start as Full node to begin syncing)
-$ tail -F ~/java-tron/tron-testnet-config/logs/tron.log | grep -A5 -B2 "MyHeadBlockNum"
-```  
+$ git clone --recurse-submodules https://github.com/fbsobreira/tron-testnet-config  
+$ cd tron-testnet-config  
+$ ./compile.sh
+
 
 ### Start witness node
 Use Wallet Operations below to register a TESTNET private key first
@@ -38,7 +29,7 @@ $ ./update_witness.sh
 $ ./work.sh start
 ```  
   
-  
+
 ### Wallet Operations
 > java-tron needs to be running for wallet actions
 > Goto http://35.193.47.70:3000/#/nodes and confirm your node is listed and synced to highest block height
