@@ -1,6 +1,6 @@
 logs
 output-directory
 fullnode
-solidity
+soliditynode
 *.log
 *.pid
