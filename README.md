@@ -12,23 +12,30 @@ sudo apt-get update\
 sudo apt-get -y -V install oracle-java8-installer
 
 ### Java-Tron Build
-```console, will aks fir Private Key in compile step. No need to update config.conf file
+> Compile script will aks fir Private Key in compile step. No need to update config.conf file
+
+```console
 
 $ git clone --recurse-submodules https://github.com/fbsobreira/tron-testnet-config  
 $ cd tron-testnet-config  
 $ ./compile.sh
-
+<Enter your node private key>
+```  
 
 ### Start witness node
-Use Wallet Operations below to register a TESTNET private key first
+> Compile script will aks fir Private Key in compile step. No need to update config.conf file
+
 ```console
-$ cd java-tron/tron-testnet-config
-$ ./work.sh stop
-$ ./update_witness.sh 
-<Enter your node private key>
+$ cd tron-testnet-config
 $ ./work.sh start
 ```  
   
+### Start solidity node
+
+```console
+$ cd tron-testnet-config
+$ ./work_solidity.sh start
+```  
 
 ### Wallet Operations
 > java-tron needs to be running for wallet actions
