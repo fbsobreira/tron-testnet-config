@@ -4,6 +4,7 @@ mkdir -p fullnode
 mkdir -p soliditynode
 # compile java-tron
 cd java-tron
+git checkout release
 ./gradlew build -x test
 # copy to directories
 if [ ! -f build/libs/FullNode.jar ]; then
@@ -32,4 +33,5 @@ sed  "/CONF_FILE_PATH=/c\CONF_FILE_PATH=\"./config_solidity.conf\"" ./work_solid
 chmod +x work.sh
 chmod +x work_solidity.sh
 
-echo All done! now staret the server with \"./work.sh start\"
+echo All done! now start the server with \"./work.sh start\"
+echo If you are planning to add a backup node, change the \"config.conf\" file prior run the start
