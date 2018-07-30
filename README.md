@@ -1,3 +1,7 @@
+# This TestNET is not available at the time. We will be making changes and update to have TVM support
+
+
+
 # Tron Testnet 
 This is a public testnet for testing softwares updates, network topologies, and failovers\
 Join Telegram group at https://t.me/tronpublictestnet
